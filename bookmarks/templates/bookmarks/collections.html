@@ -1,0 +1,27 @@
+{% extends 'bookmarks/base.html' %}
+
+{% block body %}
+
+
+
+
+{%  if collections %}
+    {% for collection in collections %}
+
+    <ul>
+        <li><a href="/collections/{{ collection.slug }}">{{ collection.list_title }}</a></li>
+    </ul>
+
+    <form action="{% url 'bookmarks:delete_collection' collection.id %}" method="post" style="display: inline;">
+            {% csrf_token %}
+            <input type="hidden" name="collection_id" value="{{ collection.id }}" />
+            <button type="submit" class="btn btn-danger btn-xs">
+                <span class="glyphicon glyphicon-remove"></span>&nbsp; Delete
+            </button>
+    </form>
+    {% endfor %}
+{% endif %}
+
+
+
+{% endblock %}

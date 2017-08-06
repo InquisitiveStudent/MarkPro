@@ -1,0 +1,51 @@
+
+{% extends 'bookmarks/base.html' %}
+
+{% block body %}
+
+<style>
+    .header-container{
+        margin-bottom: 30px;
+    }
+    .header-bg{
+        min-height: 300px;
+        background: url('http://3.bp.blogspot.com/-cx9c81b3SeQ/UQxCjTGf6uI/AAAAAAAAAq4/MitMET-_0QM/s1600/freebie_vday_bookmarks.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .news-container{
+        height: 500px;
+        overflow: scroll;
+    }
+</style>
+
+<div class="header-container">
+    <div class="header-bg"></div>
+</div>
+
+
+<div class="col-sm-9">
+
+</div>
+<div class="col-sm-2 ">
+    <div class="news-container">
+        {% for news in newsboard %}
+            <h1>{{ news.title }}</h1>
+            <small>{{news.timestamp }}</small>
+            <p> {{ news.description|slice:":10" }}
+                ...
+                <br>
+                <span>Click here to <a href="/news/{{ news.slug }}">Read More</a> </span>
+                <hr>
+            </p>
+        {% endfor %}
+    </div>
+
+</div>
+
+
+
+
+{% endblock %}
