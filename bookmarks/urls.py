@@ -11,7 +11,7 @@ urlpatterns= [
     url(r'^collections/$', collectionView , name="collections"),
     url(r'^collections/create/$', create_collection, name="create_collections"),
     url(r'^(?P<collection_id>[0-9]+)/create_bookmarks/$', create_bookmarks, name='create_song'),
-    url(r'^(?P<collection_id>[0-9]+)/delete/$', delete_collection, name="delete_collection"),
+    url(r'^collections/(?P<pk>[0-9]+)/delete/$', delete_collection.as_view(), name="delete_collection"),
     url(r'^collections/(?P<slug>[\w-]+)/$', collectionDetailView.as_view(), name="coll_detail"),
 
     #news

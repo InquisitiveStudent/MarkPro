@@ -129,7 +129,6 @@ def collectionView(request):
         return render(request, 'bookmarks/collections.html', {'collections': collections})
 
 class collectionDetailView(DetailView):
-
     template_name = 'bookmarks/collections_detail.html'
     queryset= Collection.objects.all()
 
@@ -156,7 +155,7 @@ def create_collection(request):
 
 class delete_collection(DeleteView):
     model = Collection
-    success_url = reverse_lazy('collections')
+    success_url = reverse_lazy('bookmarks:collections')
     """
     Function based delete
     def delete_collection(request, collection_id):
