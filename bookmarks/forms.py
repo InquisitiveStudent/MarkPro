@@ -5,13 +5,13 @@ from .models import Collection, Newsboard, Bookmarks
 
 class CollectionForm(forms.ModelForm):
     class Meta:
-        model=Collection
+        model= Collection
         fields=['list_title', 'list_type', 'list_description']
 
 class BookmarkForm(forms.ModelForm):
     class Meta:
         model= Bookmarks
-        fields= ['bookmarks_title', 'bookmarks_links', 'bookmarks_description']
+        fields= ['name', 'bookmarks_links', 'bookmarks_description']
 
 class NewsboardForm(forms.ModelForm):
     class Meta:

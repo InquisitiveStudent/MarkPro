@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.contrib.auth import logout, authenticate, login
 from django.views import View
-from django.views.generic import TemplateView, ListView, DetailView,DeleteView
+from django.views.generic import TemplateView, ListView, DetailView,DeleteView, UpdateView
 from django.db.models import Q
 from django.urls import reverse_lazy
 from .models import Newsboard, Collection, Bookmarks
@@ -129,7 +129,8 @@ def collectionView(request):
         return render(request, 'bookmarks/collections.html', {'collections': collections})
 
 class collectionDetailView(DetailView):
-    template_name = 'bookmarks/collections_detail.html'
+    #default template name is myModelName_detail.html
+    template_name = 'bookmarks/collection_detail.html'
     queryset= Collection.objects.all()
 
 
@@ -137,24 +138,30 @@ class collectionDetailView(DetailView):
 
 def create_collection(request):
     if not request.user.is_authenticated():
-        return request(request,'bookmarks/login/login.html',{})
+        return request(request,'bookmarks/login/login.html')
     else:
         form = CollectionForm(request.POST or None)
+
+
         if form.is_valid():
             collection=form.save(commit=False)
             collection.user= request.user
             collection.save()
+            collection = Collection.objects.all()
+            return render(request, 'bookmarks/collections.html', { 'collections': collection})
 
-            return render(request, 'bookmarks/collections.html', {'collections': collection})
     context={
         'form': form
     }
     return render(request, 'bookmarks/create_collection.html',context)
 
+class update_collection(UpdateView):
+    model = Collection
 
 
 class delete_collection(DeleteView):
     model = Collection
+
     success_url = reverse_lazy('bookmarks:collections')
     """
     Function based delete
@@ -164,14 +171,19 @@ class delete_collection(DeleteView):
     collection = Collection.objects.filter(user=request.user)
     return render(request, 'bookmarks/index.html', {'collection':s collection})
     """
-    # from django.http import Http404
-    # def get_object(self, queryset=None):
-    #     """ Hook to ensure object is owned by request.user. """
-    #     obj = super(collection_delete, self).get_object()
-    #     if not obj.owner == self.request.user:
-    #         raise Http404
-    #     return obj
+    """
+    from django.http import Http404
+    def get_object(self, queryset=None):
+     #  Hook to ensure object is owned by request.user. 
+        obj = super(collection_delete, self).get_object()
+        if not obj.owner == self.request.user:
+            raise Http404
+        return obj
 
+    def get_absolute_url(self):
+        from django.urls import reverse
+        return reverse('bookmarks.views.details', args=[str(self.id)])
+    """
 
 def create_bookmarks(request, collection_id):
     if not request.user.is_authenticated():
@@ -199,7 +211,7 @@ def create_bookmarks(request, collection_id):
 
 
             for s in collections_links:
-                if s.bookmarks_title == form.cleaned_data.get('bookmarks_title'):
+                if s.name == form.cleaned_data.get('name'):
                     context={
                         'form': form,
                         'collections': collections,
@@ -208,10 +220,10 @@ def create_bookmarks(request, collection_id):
                     }
                     return render(request, 'bookmarks/create_bookmarks.html', context)
             links = form.save(commit=False)
-            links.list_bookmark = collections
+            links.collection = collections
             #Match the Foreign Key
             links.save()
-            return render(request, 'bookmarks/collections_detail.html',{ 'collections': collections })
+            return render(request, 'bookmarks/collection_detail.html', { 'collections': collections })
 
     context= {
         'collections': collections,
@@ -219,4 +231,8 @@ def create_bookmarks(request, collection_id):
 
     }
     return render(request, 'bookmarks/create_bookmark.html', context)
+
+class delete_bookmark(DeleteView):
+    model = Bookmarks
+    success_url = reverse_lazy('bookmarks:collections')
 

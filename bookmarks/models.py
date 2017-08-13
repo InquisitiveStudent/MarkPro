@@ -2,7 +2,13 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.signals import pre_save, post_save
 from .utils import unique_slug_generator
+from django.core.validators import URLValidator
 
+from django.core.urlresolvers import reverse
+
+def rl_pre_save_receiver(sender, instance, *args,**kwargs):
+    if not instance.slug:
+        instance.slug = unique_slug_generator(instance)
 
 class Newsboard(models.Model):
     title = models.CharField(max_length = 255)
@@ -14,9 +20,6 @@ class Newsboard(models.Model):
     def __str__(self):
         return self.title
 
-def rl_pre_save_receiver(sender, instance, *args,**kwargs):
-    if not instance.slug:
-        instance.slug = unique_slug_generator(instance)
 
 pre_save.connect(rl_pre_save_receiver, sender=Newsboard)
 
@@ -25,22 +28,31 @@ class Collection(models.Model):
     list_title=models.CharField(max_length=200)
     list_type=models.CharField(max_length=200)
     list_description=models.TextField()
+    collection_logo = models.FileField(blank=True, null=True)
     timestamp= models.DateTimeField(auto_now=False, auto_now_add=True)
     updated= models.DateTimeField(auto_now=True, auto_now_add=False)
-    slug = models.SlugField(unique=True)
+    slug = models.SlugField(null=True, blank=True)
 
     def __str__(self):
         return self.list_title
+    # def __iter__(self):
+    #     return iter(self._values)
+        # return [field.value_to_string(self) for field in Collection._meta.fields]
+    def get_absolute_url(self, *args, **kwargs):
+        return reverse('bookmarks:collection_detail', kwargs={'pk': self.pk })
+
+
+pre_save.connect(rl_pre_save_receiver, sender=Collection)
 
 class Bookmarks(models.Model):
 
-    list_bookmark=models.ForeignKey(Collection, on_delete=models.CASCADE)
-    bookmarks_title= models.CharField(max_length=255)
-    bookmarks_links= models.CharField(max_length=255)
+    collection =models.ForeignKey(Collection, on_delete=models.CASCADE)
+    name = models.CharField(max_length=255)
+    bookmarks_links= models.TextField(validators=[URLValidator()])
     bookmarks_description= models.TextField()
 
     def __str__(self):
-        return self.bookmarks_title
+        return self.name
 
 
 """

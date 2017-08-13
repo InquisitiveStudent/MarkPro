@@ -1,0 +1,86 @@
+{% extends 'bookmarks/base.html' %}
+{% block title %}Collections | Details {% endblock %}
+
+{% block body %}
+<div class="container">
+     <!-- Left Collection Info -->
+        <div class="col-sm-4 col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h1>{{ object.list_title }}</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-8 col-md-8">
+            <ul class="nav nav-pills" style="margin-bottom: 10px;">
+                <li role="presentation"><a href="{% url 'bookmarks:create-bookmark' collection.id %}">Add New Collection</a></li>
+            </ul>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Links</th>
+                                    <th>Copy</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    {% for bm in collection.bookmarks_set.all %}
+                                        <tr>
+                                            <td>{{ bm.name }}</td>
+                                            <td><a href="{{ links.bookmarks_links }}" target="_blank">
+                                                {{ bm.bookmarks_links }}
+                                                </a>
+                                            </td>
+                                            <td><button class=" btn btn-info btn-xs">Copy</button></td>
+                                            <td>
+                                                <form action="{% url 'bookmarks:delete-bookmark' bm.id %}" method="post">
+                                                    {% csrf_token %}
+                                                    <input type="hidden" value="DELETE">
+                                                    <button type="submit" class="btn btn-danger btn-xs">
+                                                        <span class="glyphicon glyphicon-remove"></span>
+                                                    </button>
+
+                                                </form>
+                                            </td>
+                                        </tr>
+
+                                    {% endfor %}
+                                    <tr>
+                                        <form class="form-horizontal" role="form" action="" method="post">
+                                            {% csrf_token %}
+                                            <td>
+                                                 <input type="text" placeholder="Name">
+                                             </td>
+                                             <td>
+                                                 <input type="text" placeholder="Name">
+                                             </td>
+                                             <td>
+                                             </td>
+                                             <td>
+                                                 <button type="submit" class="btn btn-success btn-xs">
+                                                        <span class="glyphicon glyphicon-plus"></span>
+                                                 </button>
+                                             </td>
+
+
+                                        </form>
+                                    </tr>
+
+                                </tr>
+                            </tbody>
+
+                        </table>
+                </div>
+            </div>
+
+        </div>
+
+</div>
+
+
+{% endblock %}

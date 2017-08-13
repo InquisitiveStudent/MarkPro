@@ -1,27 +1,39 @@
 {% extends 'bookmarks/base.html' %}
-
 {% block body %}
 
+<div class="container">
+
+    {% if collections %}
+        {% for collection in collections %}
+            <div class="col-sm-4 col-lg-2">
+                    <div class="thumbnail">
+                        <a href="{% url 'bookmarks:collection_detail' collection.slug %}">
+
+                        </a>
+                        <div class="caption">
+                            <h2>{{ collection.list_title }}</h2>
+                            <h4>{{ collection.list_type }}</h4>
+
+                            <!-- View Details -->
+                            <a href="{% url 'bookmarks:collection_detail' collection.slug %}" class="btn btn-primary btn-sm" role="button">View Details</a>
+
+                            <!-- Delete Collection -->
+                            <form action="{% url 'bookmarks:delete_collection' collection.slug %}" method="post" style="display: inline;">
+                                {% csrf_token %}
+                                 <input type="hidden" name="collection_id" value="{{ collection.id }}" />
+                                 <button type="submit" class="btn btn-default btn-sm">
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </button>
+                            </form>
 
 
+                        </div>
+                    </div>
+                </div>
 
-{%  if collections %}
-    {% for collection in collections %}
-
-    <ul>
-        <li><a href="/collections/{{ collection.slug }}">{{ collection.list_title }}</a></li>
-    </ul>
-
-    <form action="{% url 'bookmarks:delete_collection' collection.id %}" method="post" style="display: inline;">
-            {% csrf_token %}
-            <input type="hidden" name="collection_id" value="{{ collection.id }}" />
-            <button type="submit" class="btn btn-danger btn-xs">
-                <span class="glyphicon glyphicon-remove"></span>&nbsp; Delete
-            </button>
-    </form>
-    {% endfor %}
-{% endif %}
-
-
+    {% cycle '' '' '' '' '' '<div class="clearfix visible-lg"></div>' %}
+        {% endfor %}
+    {% endif %}
+</div>
 
 {% endblock %}

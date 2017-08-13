@@ -1,7 +1,394 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a97d2f10-f9a0-4992-a89a-49d591dde308" name="Default" comment="" />
+    <list default="true" id="62b913fa-6e97-4cd9-8987-f2f57e557939" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookmarks/static/img/book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookmarks/static/img/news.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookmarks/static/img/profile-pictures.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookmarks/migrations/0002_auto_20170811_1056.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookmarks/migrations/0003_auto_20170811_1101.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookmarks/static/js/scrollReveal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookmarks/templates/bookmarks/collection_detail.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/.idea/MarkPro.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/.idea/MarkPro.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/MarkPro/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/MarkPro/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/MarkPro/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/MarkPro/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/migrations/0002_auto_20170723_1404.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/migrations/0003_auto_20170724_0202.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/static/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/static/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/templates/bookmarks/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/templates/bookmarks/base_visitor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/templates/bookmarks/base_vistor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/templates/bookmarks/collections.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/templates/bookmarks/form_template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/templates/bookmarks/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/templates/bookmarks/home_visitor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/templates/bookmarks/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/templates/bookmarks/login/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/templates/bookmarks/login/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/templates/bookmarks/news.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/templates/bookmarks/newsboard_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/templates/bookmarks/snipplets/form_template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/bookmarks/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/MarkPro/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/migrations/0002_auto_20170723_1404.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/static/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/static/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/templates/bookmarks/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/templates/bookmarks/base_vistor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/templates/bookmarks/form_template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/templates/bookmarks/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/templates/bookmarks/news.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/templates/bookmarks/newsboard_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/bookmarks/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MarkPro/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bookmarks/migrations/0002_auto_20170723_1404.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bookmarks/migrations/0003_auto_20170724_0202.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bookmarks/migrations/0004_auto_20170806_1409.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bookmarks/templates/bookmarks/collections_detail.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/Python-ast.h" afterPath="$PROJECT_DIR$/Include/Python-ast.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/Python.h" afterPath="$PROJECT_DIR$/Include/Python.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/abstract.h" afterPath="$PROJECT_DIR$/Include/abstract.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/accu.h" afterPath="$PROJECT_DIR$/Include/accu.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/asdl.h" afterPath="$PROJECT_DIR$/Include/asdl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/ast.h" afterPath="$PROJECT_DIR$/Include/ast.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/bitset.h" afterPath="$PROJECT_DIR$/Include/bitset.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/bltinmodule.h" afterPath="$PROJECT_DIR$/Include/bltinmodule.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/boolobject.h" afterPath="$PROJECT_DIR$/Include/boolobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/bytearrayobject.h" afterPath="$PROJECT_DIR$/Include/bytearrayobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/bytes_methods.h" afterPath="$PROJECT_DIR$/Include/bytes_methods.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/bytesobject.h" afterPath="$PROJECT_DIR$/Include/bytesobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/cellobject.h" afterPath="$PROJECT_DIR$/Include/cellobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/ceval.h" afterPath="$PROJECT_DIR$/Include/ceval.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/classobject.h" afterPath="$PROJECT_DIR$/Include/classobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/code.h" afterPath="$PROJECT_DIR$/Include/code.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/codecs.h" afterPath="$PROJECT_DIR$/Include/codecs.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/compile.h" afterPath="$PROJECT_DIR$/Include/compile.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/complexobject.h" afterPath="$PROJECT_DIR$/Include/complexobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/datetime.h" afterPath="$PROJECT_DIR$/Include/datetime.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/descrobject.h" afterPath="$PROJECT_DIR$/Include/descrobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/dictobject.h" afterPath="$PROJECT_DIR$/Include/dictobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/dtoa.h" afterPath="$PROJECT_DIR$/Include/dtoa.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/dynamic_annotations.h" afterPath="$PROJECT_DIR$/Include/dynamic_annotations.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/enumobject.h" afterPath="$PROJECT_DIR$/Include/enumobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/errcode.h" afterPath="$PROJECT_DIR$/Include/errcode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/eval.h" afterPath="$PROJECT_DIR$/Include/eval.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/fileobject.h" afterPath="$PROJECT_DIR$/Include/fileobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/fileutils.h" afterPath="$PROJECT_DIR$/Include/fileutils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/floatobject.h" afterPath="$PROJECT_DIR$/Include/floatobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/frameobject.h" afterPath="$PROJECT_DIR$/Include/frameobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/funcobject.h" afterPath="$PROJECT_DIR$/Include/funcobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/genobject.h" afterPath="$PROJECT_DIR$/Include/genobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/graminit.h" afterPath="$PROJECT_DIR$/Include/graminit.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/grammar.h" afterPath="$PROJECT_DIR$/Include/grammar.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/import.h" afterPath="$PROJECT_DIR$/Include/import.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/intrcheck.h" afterPath="$PROJECT_DIR$/Include/intrcheck.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/iterobject.h" afterPath="$PROJECT_DIR$/Include/iterobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/listobject.h" afterPath="$PROJECT_DIR$/Include/listobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/longintrepr.h" afterPath="$PROJECT_DIR$/Include/longintrepr.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/longobject.h" afterPath="$PROJECT_DIR$/Include/longobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/marshal.h" afterPath="$PROJECT_DIR$/Include/marshal.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/memoryobject.h" afterPath="$PROJECT_DIR$/Include/memoryobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/metagrammar.h" afterPath="$PROJECT_DIR$/Include/metagrammar.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/methodobject.h" afterPath="$PROJECT_DIR$/Include/methodobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/modsupport.h" afterPath="$PROJECT_DIR$/Include/modsupport.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/moduleobject.h" afterPath="$PROJECT_DIR$/Include/moduleobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/namespaceobject.h" afterPath="$PROJECT_DIR$/Include/namespaceobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/node.h" afterPath="$PROJECT_DIR$/Include/node.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/object.h" afterPath="$PROJECT_DIR$/Include/object.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/objimpl.h" afterPath="$PROJECT_DIR$/Include/objimpl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/odictobject.h" afterPath="$PROJECT_DIR$/Include/odictobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/opcode.h" afterPath="$PROJECT_DIR$/Include/opcode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/osdefs.h" afterPath="$PROJECT_DIR$/Include/osdefs.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/osmodule.h" afterPath="$PROJECT_DIR$/Include/osmodule.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/parsetok.h" afterPath="$PROJECT_DIR$/Include/parsetok.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/patchlevel.h" afterPath="$PROJECT_DIR$/Include/patchlevel.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pgen.h" afterPath="$PROJECT_DIR$/Include/pgen.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pgenheaders.h" afterPath="$PROJECT_DIR$/Include/pgenheaders.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/py_curses.h" afterPath="$PROJECT_DIR$/Include/py_curses.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pyarena.h" afterPath="$PROJECT_DIR$/Include/pyarena.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pyatomic.h" afterPath="$PROJECT_DIR$/Include/pyatomic.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pycapsule.h" afterPath="$PROJECT_DIR$/Include/pycapsule.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pyconfig.h" afterPath="$PROJECT_DIR$/Include/pyconfig.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pyctype.h" afterPath="$PROJECT_DIR$/Include/pyctype.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pydebug.h" afterPath="$PROJECT_DIR$/Include/pydebug.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pydtrace.h" afterPath="$PROJECT_DIR$/Include/pydtrace.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pyerrors.h" afterPath="$PROJECT_DIR$/Include/pyerrors.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pyexpat.h" afterPath="$PROJECT_DIR$/Include/pyexpat.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pyfpe.h" afterPath="$PROJECT_DIR$/Include/pyfpe.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pygetopt.h" afterPath="$PROJECT_DIR$/Include/pygetopt.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pyhash.h" afterPath="$PROJECT_DIR$/Include/pyhash.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pylifecycle.h" afterPath="$PROJECT_DIR$/Include/pylifecycle.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pymacconfig.h" afterPath="$PROJECT_DIR$/Include/pymacconfig.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pymacro.h" afterPath="$PROJECT_DIR$/Include/pymacro.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pymath.h" afterPath="$PROJECT_DIR$/Include/pymath.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pymem.h" afterPath="$PROJECT_DIR$/Include/pymem.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pyport.h" afterPath="$PROJECT_DIR$/Include/pyport.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pystate.h" afterPath="$PROJECT_DIR$/Include/pystate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pystrcmp.h" afterPath="$PROJECT_DIR$/Include/pystrcmp.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pystrhex.h" afterPath="$PROJECT_DIR$/Include/pystrhex.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pystrtod.h" afterPath="$PROJECT_DIR$/Include/pystrtod.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pythonrun.h" afterPath="$PROJECT_DIR$/Include/pythonrun.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pythread.h" afterPath="$PROJECT_DIR$/Include/pythread.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/pytime.h" afterPath="$PROJECT_DIR$/Include/pytime.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/rangeobject.h" afterPath="$PROJECT_DIR$/Include/rangeobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/setobject.h" afterPath="$PROJECT_DIR$/Include/setobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/sliceobject.h" afterPath="$PROJECT_DIR$/Include/sliceobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/structmember.h" afterPath="$PROJECT_DIR$/Include/structmember.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/structseq.h" afterPath="$PROJECT_DIR$/Include/structseq.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/symtable.h" afterPath="$PROJECT_DIR$/Include/symtable.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/sysmodule.h" afterPath="$PROJECT_DIR$/Include/sysmodule.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/token.h" afterPath="$PROJECT_DIR$/Include/token.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/traceback.h" afterPath="$PROJECT_DIR$/Include/traceback.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/tupleobject.h" afterPath="$PROJECT_DIR$/Include/tupleobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/typeslots.h" afterPath="$PROJECT_DIR$/Include/typeslots.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/ucnhash.h" afterPath="$PROJECT_DIR$/Include/ucnhash.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/unicodeobject.h" afterPath="$PROJECT_DIR$/Include/unicodeobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/warnings.h" afterPath="$PROJECT_DIR$/Include/warnings.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/weakrefobject.h" afterPath="$PROJECT_DIR$/Include/weakrefobject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/__future__.py" afterPath="$PROJECT_DIR$/Lib/__future__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/_bootlocale.py" afterPath="$PROJECT_DIR$/Lib/_bootlocale.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/_collections_abc.py" afterPath="$PROJECT_DIR$/Lib/_collections_abc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/_dummy_thread.py" afterPath="$PROJECT_DIR$/Lib/_dummy_thread.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/_weakrefset.py" afterPath="$PROJECT_DIR$/Lib/_weakrefset.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/abc.py" afterPath="$PROJECT_DIR$/Lib/abc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/base64.py" afterPath="$PROJECT_DIR$/Lib/base64.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/bisect.py" afterPath="$PROJECT_DIR$/Lib/bisect.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/codecs.py" afterPath="$PROJECT_DIR$/Lib/codecs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/collections/__init__.py" afterPath="$PROJECT_DIR$/Lib/collections/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/collections/abc.py" afterPath="$PROJECT_DIR$/Lib/collections/abc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/copy.py" afterPath="$PROJECT_DIR$/Lib/copy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/copyreg.py" afterPath="$PROJECT_DIR$/Lib/copyreg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/__init__.py" afterPath="$PROJECT_DIR$/Lib/encodings/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/aliases.py" afterPath="$PROJECT_DIR$/Lib/encodings/aliases.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/ascii.py" afterPath="$PROJECT_DIR$/Lib/encodings/ascii.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/base64_codec.py" afterPath="$PROJECT_DIR$/Lib/encodings/base64_codec.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/big5.py" afterPath="$PROJECT_DIR$/Lib/encodings/big5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/big5hkscs.py" afterPath="$PROJECT_DIR$/Lib/encodings/big5hkscs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/bz2_codec.py" afterPath="$PROJECT_DIR$/Lib/encodings/bz2_codec.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/charmap.py" afterPath="$PROJECT_DIR$/Lib/encodings/charmap.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp037.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp037.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp1006.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp1006.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp1026.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp1026.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp1125.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp1125.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp1140.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp1140.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp1250.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp1250.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp1251.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp1251.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp1252.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp1252.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp1253.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp1253.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp1254.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp1254.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp1255.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp1255.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp1256.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp1256.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp1257.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp1257.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp1258.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp1258.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp273.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp273.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp424.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp424.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp437.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp437.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp500.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp500.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp65001.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp65001.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp720.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp720.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp737.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp737.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp775.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp775.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp850.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp850.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp852.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp852.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp855.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp855.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp856.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp856.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp857.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp857.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp858.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp858.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp860.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp860.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp861.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp861.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp862.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp862.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp863.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp863.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp864.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp864.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp865.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp865.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp866.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp866.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp869.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp869.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp874.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp874.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp875.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp875.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp932.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp932.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp949.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp949.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/cp950.py" afterPath="$PROJECT_DIR$/Lib/encodings/cp950.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/euc_jis_2004.py" afterPath="$PROJECT_DIR$/Lib/encodings/euc_jis_2004.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/euc_jisx0213.py" afterPath="$PROJECT_DIR$/Lib/encodings/euc_jisx0213.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/euc_jp.py" afterPath="$PROJECT_DIR$/Lib/encodings/euc_jp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/euc_kr.py" afterPath="$PROJECT_DIR$/Lib/encodings/euc_kr.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/gb18030.py" afterPath="$PROJECT_DIR$/Lib/encodings/gb18030.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/gb2312.py" afterPath="$PROJECT_DIR$/Lib/encodings/gb2312.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/gbk.py" afterPath="$PROJECT_DIR$/Lib/encodings/gbk.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/hex_codec.py" afterPath="$PROJECT_DIR$/Lib/encodings/hex_codec.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/hp_roman8.py" afterPath="$PROJECT_DIR$/Lib/encodings/hp_roman8.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/hz.py" afterPath="$PROJECT_DIR$/Lib/encodings/hz.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/idna.py" afterPath="$PROJECT_DIR$/Lib/encodings/idna.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso2022_jp.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso2022_jp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso2022_jp_1.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso2022_jp_1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso2022_jp_2.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso2022_jp_2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso2022_jp_2004.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso2022_jp_2004.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso2022_jp_3.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso2022_jp_3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso2022_jp_ext.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso2022_jp_ext.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso2022_kr.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso2022_kr.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso8859_1.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso8859_1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso8859_10.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso8859_10.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso8859_11.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso8859_11.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso8859_13.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso8859_13.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso8859_14.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso8859_14.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso8859_15.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso8859_15.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso8859_16.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso8859_16.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso8859_2.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso8859_2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso8859_3.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso8859_3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso8859_4.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso8859_4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso8859_5.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso8859_5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso8859_6.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso8859_6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso8859_7.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso8859_7.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso8859_8.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso8859_8.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/iso8859_9.py" afterPath="$PROJECT_DIR$/Lib/encodings/iso8859_9.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/johab.py" afterPath="$PROJECT_DIR$/Lib/encodings/johab.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/koi8_r.py" afterPath="$PROJECT_DIR$/Lib/encodings/koi8_r.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/koi8_t.py" afterPath="$PROJECT_DIR$/Lib/encodings/koi8_t.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/koi8_u.py" afterPath="$PROJECT_DIR$/Lib/encodings/koi8_u.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/kz1048.py" afterPath="$PROJECT_DIR$/Lib/encodings/kz1048.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/latin_1.py" afterPath="$PROJECT_DIR$/Lib/encodings/latin_1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/mac_arabic.py" afterPath="$PROJECT_DIR$/Lib/encodings/mac_arabic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/mac_centeuro.py" afterPath="$PROJECT_DIR$/Lib/encodings/mac_centeuro.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/mac_croatian.py" afterPath="$PROJECT_DIR$/Lib/encodings/mac_croatian.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/mac_cyrillic.py" afterPath="$PROJECT_DIR$/Lib/encodings/mac_cyrillic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/mac_farsi.py" afterPath="$PROJECT_DIR$/Lib/encodings/mac_farsi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/mac_greek.py" afterPath="$PROJECT_DIR$/Lib/encodings/mac_greek.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/mac_iceland.py" afterPath="$PROJECT_DIR$/Lib/encodings/mac_iceland.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/mac_latin2.py" afterPath="$PROJECT_DIR$/Lib/encodings/mac_latin2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/mac_roman.py" afterPath="$PROJECT_DIR$/Lib/encodings/mac_roman.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/mac_romanian.py" afterPath="$PROJECT_DIR$/Lib/encodings/mac_romanian.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/mac_turkish.py" afterPath="$PROJECT_DIR$/Lib/encodings/mac_turkish.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/mbcs.py" afterPath="$PROJECT_DIR$/Lib/encodings/mbcs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/oem.py" afterPath="$PROJECT_DIR$/Lib/encodings/oem.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/palmos.py" afterPath="$PROJECT_DIR$/Lib/encodings/palmos.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/ptcp154.py" afterPath="$PROJECT_DIR$/Lib/encodings/ptcp154.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/punycode.py" afterPath="$PROJECT_DIR$/Lib/encodings/punycode.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/quopri_codec.py" afterPath="$PROJECT_DIR$/Lib/encodings/quopri_codec.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/raw_unicode_escape.py" afterPath="$PROJECT_DIR$/Lib/encodings/raw_unicode_escape.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/rot_13.py" afterPath="$PROJECT_DIR$/Lib/encodings/rot_13.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/shift_jis.py" afterPath="$PROJECT_DIR$/Lib/encodings/shift_jis.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/shift_jis_2004.py" afterPath="$PROJECT_DIR$/Lib/encodings/shift_jis_2004.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/shift_jisx0213.py" afterPath="$PROJECT_DIR$/Lib/encodings/shift_jisx0213.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/tis_620.py" afterPath="$PROJECT_DIR$/Lib/encodings/tis_620.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/undefined.py" afterPath="$PROJECT_DIR$/Lib/encodings/undefined.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/unicode_escape.py" afterPath="$PROJECT_DIR$/Lib/encodings/unicode_escape.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/unicode_internal.py" afterPath="$PROJECT_DIR$/Lib/encodings/unicode_internal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/utf_16.py" afterPath="$PROJECT_DIR$/Lib/encodings/utf_16.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/utf_16_be.py" afterPath="$PROJECT_DIR$/Lib/encodings/utf_16_be.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/utf_16_le.py" afterPath="$PROJECT_DIR$/Lib/encodings/utf_16_le.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/utf_32.py" afterPath="$PROJECT_DIR$/Lib/encodings/utf_32.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/utf_32_be.py" afterPath="$PROJECT_DIR$/Lib/encodings/utf_32_be.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/utf_32_le.py" afterPath="$PROJECT_DIR$/Lib/encodings/utf_32_le.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/utf_7.py" afterPath="$PROJECT_DIR$/Lib/encodings/utf_7.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/utf_8.py" afterPath="$PROJECT_DIR$/Lib/encodings/utf_8.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/utf_8_sig.py" afterPath="$PROJECT_DIR$/Lib/encodings/utf_8_sig.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/uu_codec.py" afterPath="$PROJECT_DIR$/Lib/encodings/uu_codec.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/encodings/zlib_codec.py" afterPath="$PROJECT_DIR$/Lib/encodings/zlib_codec.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/enum.py" afterPath="$PROJECT_DIR$/Lib/enum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/fnmatch.py" afterPath="$PROJECT_DIR$/Lib/fnmatch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/functools.py" afterPath="$PROJECT_DIR$/Lib/functools.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/genericpath.py" afterPath="$PROJECT_DIR$/Lib/genericpath.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/hashlib.py" afterPath="$PROJECT_DIR$/Lib/hashlib.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/heapq.py" afterPath="$PROJECT_DIR$/Lib/heapq.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/hmac.py" afterPath="$PROJECT_DIR$/Lib/hmac.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/imp.py" afterPath="$PROJECT_DIR$/Lib/imp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/importlib/__init__.py" afterPath="$PROJECT_DIR$/Lib/importlib/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/importlib/_bootstrap.py" afterPath="$PROJECT_DIR$/Lib/importlib/_bootstrap.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/importlib/_bootstrap_external.py" afterPath="$PROJECT_DIR$/Lib/importlib/_bootstrap_external.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/importlib/abc.py" afterPath="$PROJECT_DIR$/Lib/importlib/abc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/importlib/machinery.py" afterPath="$PROJECT_DIR$/Lib/importlib/machinery.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/importlib/util.py" afterPath="$PROJECT_DIR$/Lib/importlib/util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/io.py" afterPath="$PROJECT_DIR$/Lib/io.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/keyword.py" afterPath="$PROJECT_DIR$/Lib/keyword.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/linecache.py" afterPath="$PROJECT_DIR$/Lib/linecache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/locale.py" afterPath="$PROJECT_DIR$/Lib/locale.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/ntpath.py" afterPath="$PROJECT_DIR$/Lib/ntpath.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/operator.py" afterPath="$PROJECT_DIR$/Lib/operator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/os.py" afterPath="$PROJECT_DIR$/Lib/os.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/posixpath.py" afterPath="$PROJECT_DIR$/Lib/posixpath.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/random.py" afterPath="$PROJECT_DIR$/Lib/random.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/re.py" afterPath="$PROJECT_DIR$/Lib/re.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/reprlib.py" afterPath="$PROJECT_DIR$/Lib/reprlib.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/rlcompleter.py" afterPath="$PROJECT_DIR$/Lib/rlcompleter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/shutil.py" afterPath="$PROJECT_DIR$/Lib/shutil.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/site-packages/pip-9.0.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/Lib/site-packages/pip-9.0.1.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/site-packages/pkg_resources/_vendor/pyparsing.py" afterPath="$PROJECT_DIR$/Lib/site-packages/pkg_resources/_vendor/pyparsing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools-36.2.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools-36.2.0.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/site-packages/wheel-0.29.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/Lib/site-packages/wheel-0.29.0.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/site-packages/wheel/test/test_install.py" afterPath="$PROJECT_DIR$/Lib/site-packages/wheel/test/test_install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/sre_compile.py" afterPath="$PROJECT_DIR$/Lib/sre_compile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/sre_constants.py" afterPath="$PROJECT_DIR$/Lib/sre_constants.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/sre_parse.py" afterPath="$PROJECT_DIR$/Lib/sre_parse.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/stat.py" afterPath="$PROJECT_DIR$/Lib/stat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/struct.py" afterPath="$PROJECT_DIR$/Lib/struct.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/tarfile.py" afterPath="$PROJECT_DIR$/Lib/tarfile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/tempfile.py" afterPath="$PROJECT_DIR$/Lib/tempfile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/token.py" afterPath="$PROJECT_DIR$/Lib/token.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/tokenize.py" afterPath="$PROJECT_DIR$/Lib/tokenize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/types.py" afterPath="$PROJECT_DIR$/Lib/types.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/warnings.py" afterPath="$PROJECT_DIR$/Lib/warnings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/weakref.py" afterPath="$PROJECT_DIR$/Lib/weakref.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MarkPro/settings.py" afterPath="$PROJECT_DIR$/MarkPro/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scripts/activate.bat" afterPath="$PROJECT_DIR$/Scripts/activate.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scripts/activate.ps1" afterPath="$PROJECT_DIR$/Scripts/activate.ps1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scripts/deactivate.bat" afterPath="$PROJECT_DIR$/Scripts/deactivate.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/forms.py" afterPath="$PROJECT_DIR$/bookmarks/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/bookmarks/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/models.py" afterPath="$PROJECT_DIR$/bookmarks/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/static/css/main.css" afterPath="$PROJECT_DIR$/bookmarks/static/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/static/css/style.css" afterPath="$PROJECT_DIR$/bookmarks/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/templates/bookmarks/base.html" afterPath="$PROJECT_DIR$/bookmarks/templates/bookmarks/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/templates/bookmarks/base_visitor.html" afterPath="$PROJECT_DIR$/bookmarks/templates/bookmarks/base_visitor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/templates/bookmarks/collections.html" afterPath="$PROJECT_DIR$/bookmarks/templates/bookmarks/collections.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/templates/bookmarks/create_bookmark.html" afterPath="$PROJECT_DIR$/bookmarks/templates/bookmarks/create_bookmark.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/templates/bookmarks/create_collection.html" afterPath="$PROJECT_DIR$/bookmarks/templates/bookmarks/create_collection.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/templates/bookmarks/home.html" afterPath="$PROJECT_DIR$/bookmarks/templates/bookmarks/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/templates/bookmarks/home_visitor.html" afterPath="$PROJECT_DIR$/bookmarks/templates/bookmarks/home_visitor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/templates/bookmarks/login/login.html" afterPath="$PROJECT_DIR$/bookmarks/templates/bookmarks/login/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/urls.py" afterPath="$PROJECT_DIR$/bookmarks/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/utils.py" afterPath="$PROJECT_DIR$/bookmarks/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/views.py" afterPath="$PROJECT_DIR$/bookmarks/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tcl/tk8.6/pkgIndex.tcl" afterPath="$PROJECT_DIR$/tcl/tk8.6/pkgIndex.tcl" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,70 +399,39 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookmarks/forms.py">
+      <file leaf-file-name="collection_detail.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/collection_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="161">
+              <caret line="16" column="120" lean-forward="false" selection-start-line="16" selection-start-column="120" selection-end-line="16" selection-end-column="120" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookmarks/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_collection.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/create_collection.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>create</find>
-      <find>music</find>
+      <find>bookmarks_ti</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bookmarks/templates/bookmarks/base_vistor.html" />
-        <option value="$PROJECT_DIR$/bookmarks/templates/bookmarks/form_template.html" />
-        <option value="$PROJECT_DIR$/MarkPro/urls.py" />
-        <option value="$PROJECT_DIR$/bookmarks/templates/bookmarks/home.html" />
-        <option value="$PROJECT_DIR$/MarkPro/settings.py" />
-        <option value="$PROJECT_DIR$/bookmarks/templates/bookmarks/base.html" />
-        <option value="$PROJECT_DIR$/bookmarks/urls.py" />
-        <option value="$PROJECT_DIR$/bookmarks/views.py" />
         <option value="$PROJECT_DIR$/bookmarks/forms.py" />
+        <option value="$PROJECT_DIR$/MarkPro/settings.py" />
+        <option value="$PROJECT_DIR$/bookmarks/templates/bookmarks/collections.html" />
+        <option value="$PROJECT_DIR$/bookmarks/templates/bookmarks/create_bookmark.html" />
         <option value="$PROJECT_DIR$/bookmarks/models.py" />
-        <option value="$PROJECT_DIR$/bookmarks/templates/bookmarks/create_collection.html" />
+        <option value="$PROJECT_DIR$/bookmarks/templates/bookmarks/collection_detail.html" />
+        <option value="$PROJECT_DIR$/bookmarks/views.py" />
+        <option value="$PROJECT_DIR$/bookmarks/urls.py" />
       </list>
     </option>
   </component>
@@ -85,6 +441,7 @@
     <option name="width" value="1276" />
     <option name="height" value="777" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -101,6 +458,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,41 +547,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MarkPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MarkPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -308,11 +638,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a97d2f10-f9a0-4992-a89a-49d591dde308" name="Default" comment="" />
-      <created>1499349749532</created>
+      <changelist id="62b913fa-6e97-4cd9-8987-f2f57e557939" name="Default" comment="" />
+      <created>1502416690409</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1499349749532</updated>
+      <updated>1502416690409</updated>
     </task>
     <servers />
   </component>
@@ -320,14 +650,14 @@
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27147487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10048623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -350,181 +680,180 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bookmarks/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="2265">
+          <caret line="159" column="23" lean-forward="false" selection-start-line="159" selection-start-column="6" selection-end-line="159" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/newsboard_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/home_visitor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/collections.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/collection_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bookmarks/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/form_template.html" />
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/home.html">
+    <entry file="file://$PROJECT_DIR$/MarkPro/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/base_vistor.html" />
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/form_template.html" />
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/base_vistor.html" />
-    <entry file="file://$PROJECT_DIR$/bookmarks/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="585">
+          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bookmarks/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="2385">
+          <caret line="159" column="23" lean-forward="false" selection-start-line="159" selection-start-column="6" selection-end-line="159" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/base.html">
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/newsboard_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/home_visitor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MarkPro/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+        <state relative-caret-position="585">
+          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MarkPro/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/collections.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bookmarks/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="270">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/form_template.html" />
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/home.html">
+    <entry file="file://$PROJECT_DIR$/bookmarks/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/base_vistor.html" />
-    <entry file="file://$PROJECT_DIR$/bookmarks/apps.py">
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/collection_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/admin.py">
+    <entry file="file://$PROJECT_DIR$/bookmarks/static/js/scrollReveal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Front-end-develeopers.lnk" />
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/base_vistor.html" />
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/form_template.html" />
-    <entry file="file://$PROJECT_DIR$/MarkPro/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/migrations/0002_auto_20170723_1404.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MarkPro/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -535,66 +864,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/newsboard_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MarkPro/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="77" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="77" />
+        <state relative-caret-position="431">
+          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/snipplets/form_template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -602,62 +892,145 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/login/login.html">
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/home_visitor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/login/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/collections.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        <state relative-caret-position="168">
+          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/views.py">
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/create_collection.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="139" column="29" lean-forward="false" selection-start-line="139" selection-start-column="29" selection-end-line="139" selection-end-column="29" />
+        <state relative-caret-position="76">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/forms.py">
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/create_bookmark.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="214">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bookmarks/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="312">
+          <caret line="41" column="60" lean-forward="false" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/create_collection.html">
+    <entry file="file://$PROJECT_DIR$/bookmarks/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="183">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/newsboard_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/templates/bookmarks/collection_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" column="120" lean-forward="false" selection-start-line="16" selection-start-column="120" selection-end-line="16" selection-end-column="120" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
